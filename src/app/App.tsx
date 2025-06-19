@@ -20,7 +20,6 @@ function App() {
                 <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/pokemon" element={<ListPage />} />
-                  <Route path="/pokemon/:pokemonId" element={<ListPage />} />
                 </Routes>
               </div>
             </div>
